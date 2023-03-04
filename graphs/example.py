@@ -7,7 +7,6 @@ G = nx.Graph()  # создаём объект графа
 
 # определяем список рёбер
 # список кортежей, каждый из которых представляет ребро
-# кортеж (id_1, id_2) означает, что узлы id_1 и id_2 соединены ребром
 edgelist = [["Mannheim", "Frankfurt", 85], ["Mannheim", "Karlsruhe", 80], ["Erfurt",
 "Wurzburg", 186], ["Munchen", "Numberg", 167], ["Munchen", "Augsburg", 84], ["Munchen",
 "Kassel", 502], ["Numberg", "Stuttgart", 183], ["Numberg", "Wurzburg", 103], ["Numberg",
